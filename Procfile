@@ -1,1 +1,1 @@
-web: gunicorn app.pyladiestnr:app
+web: gunicorn  pyladiestnr:app
