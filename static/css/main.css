@@ -8,7 +8,7 @@ body {
  * Formatting the header area
  */
 header {
-    background-color:#ff5252;
+    background-color:#fff;
     height: 35px;
     width: 100%;
     opacity: .9;
@@ -16,13 +16,12 @@ header {
 }
 header h1.logo {
     margin: 0;
-    font-size: 1.7em;
-    color: #fff;
-    text-transform: uppercase;
+    font-size: 1.2em;
+    color: #ff5252;
     float: left;
 }
 header h1.logo:hover {
-    color: #fff;
+    color: #ff5252;
     text-decoration: none;
 }
 /*
@@ -31,6 +30,8 @@ header h1.logo:hover {
 .container {
     width: 90%;
     margin: 0 auto;
+    margin-top: 25px;
+}
 }
 div.home {
     padding: 10px 10px 30px 10px;
@@ -45,6 +46,12 @@ div.about {
     -webkit-border-radius: 6px;
     -moz-border-radius: 6px;
     border-radius: 6px;
+}
+footer {
+	position: absolute;
+	height: 100px;
+    background-color:#ff5252;
+    height: 60px;
 }
 h2 {
     font-size: 3em;
