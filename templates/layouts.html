@@ -3,27 +3,44 @@
     <head>
         <title> Pyladiesmdg </title>
         <link rel="stylesheet" href="{{ url_for('static', filename='css/main.css') }}" >
-        <link href="https://fonts.googleapis.com/css?family=Dancing+Script" rel="stylesheet"> 
+        <link href="https://fonts.googleapis.com/css?family=Antic|Trirong:300i" rel="stylesheet">
+
     </head>
     <body>
-        <header>
+      <div id="wrapper">
+
+	<div id="header">
+	</div><!-- #header -->
+
+	<div id="content">
+	</div><!-- #content -->
+
+	<div id="footer">
+	</div><!-- #footer -->
+      </div>
+      
+
+
+      <header>
             <div class="container" >
                  <h1 class="logo"> Antananarivo Pyladies </h1> 
                  <strong><nav>
                          <ul class="menu">
-                            <li> <a href="{{ url_for('home') }}"> value</a> </li>
+                            <li> <a href="{{ url_for('home') }}"> Home</a> </li>
                             <li> <a href="{{ url_for('about') }}"> event </a> </li>
-                            <li> <a href="{{ url_for('home') }}">inspirin-stuff </a> </li>
-                            <li> <a href="{{ url_for('home') }}">who?</a> </li>
+                            <li> <a href="{{ url_for('home') }}">inspiring-stuff </a> </li>
 
  
                          </ul>
                  </nav></strong>
             </div>
         </header>
-    <div class="container">
+     <div class="container">
         {% block content %}
         {% endblock %}
     </div>
+    <footer>
+        hey!
+    </footer>
     </body>
 </html>
