@@ -7,40 +7,24 @@
 
     </head>
     <body>
-      <div id="wrapper">
 
-	<div id="header">
-	</div><!-- #header -->
+	<header>
+       <h1 class="logo"> Antananarivo Pyladies </h1> 
+       <strong><nav>
+            <ul class="menu">
+            <li> <a href="{{ url_for('home') }}"> Home</a> </li>
+            <li> <a href="{{ url_for('about') }}"> event </a> </li>
+           <li> <a href="{{ url_for('home') }}">inspiring-stuff </a> </li>
+        </ul>
+       </nav></strong>
+     </header>
+	
 
-	<div id="content">
-	</div><!-- #content -->
-
-	<div id="footer">
-	</div><!-- #footer -->
-      </div>
-      
-
-
-      <header>
-            <div class="container" >
-                 <h1 class="logo"> Antananarivo Pyladies </h1> 
-                 <strong><nav>
-                         <ul class="menu">
-                            <li> <a href="{{ url_for('home') }}"> Home</a> </li>
-                            <li> <a href="{{ url_for('about') }}"> event </a> </li>
-                            <li> <a href="{{ url_for('home') }}">inspiring-stuff </a> </li>
-
- 
-                         </ul>
-                 </nav></strong>
-            </div>
-        </header>
      <div class="container">
         {% block content %}
         {% endblock %}
     </div>
-    <footer>
-        hey!
-    </footer>
+    
+    
     </body>
 </html>
