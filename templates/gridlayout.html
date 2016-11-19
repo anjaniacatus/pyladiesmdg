@@ -1,36 +1,29 @@
 <!DOCTYPE html>
 <html>
-    <head>
+  <head>
     <title> Pyladiesmdg </title>
-       <link rel="stylesheet" href="{{ url_for('static', filename='css/main.css') }}" >  
-        <link href="https://fonts.googleapis.com/css?family=Antic|Trirong:300i" rel="stylesheet">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/grid.css') }}" >
+    <link href="https://fonts.googleapis.com/css?family=Antic|Trirong:300i" rel="stylesheet">
+  </head>
+  <body>
 
-    </head>
-    
-    <body>
-       <div class="grid">
-       <div class="col-2-3">
-          <ul class="logo">
-          <li><img src="{{ url_for('static', filename = 'image/pyladies.png') }}" width="200"></li>
-         </ul>
-          <ul>
-             <li><a href="#">Home</a></li>
-             <li><a href="#">Contact</a></li>
-             <li><a href="#">Inscription</a></li>
-          </ul>      
-     </div>
-    <div class="container">      
-        {% block content %}
-        {% endblock %}
+ <h1> tinay ny mikôdy :)  </h1>
+<div class="grid">
+  <div class="col-2-3">
+    <div class="module">
+     <img src="{{ url_for('static', filename = 'image/pyladies.png') }}" width="200">
+    {% block content %}
+    {% endblock %}
+
     </div>
-    </div> 
+  </div>
+  <div class="col-1-3">
+    <div class="module">
+      <p>twitter goes here!</p>
+    </div>
+  </div>
+</div>
+ </div>
 
-        <div class="col-1-3">
-	     twitter goes here
-        </div> 
-    
-   </div>                
-    
-   
-    </body>
+  </body>
 </html>
