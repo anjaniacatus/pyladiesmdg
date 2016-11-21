@@ -1,19 +1,15 @@
-# pyladiesmdg 
-page web  pyladies antananarivo
-
-To run locally pyladiesmdg:
-
-you need to install on your system:
-python-2.7.9, python-pip and virtualenv
-
-on debian :
-> apt-get install python python-pip
-> cd /your/path/workspace
-> git clone  https://github.com/anjaniacatus/pyladiesmdg.git 
-> cd pyladiesmdg
-> virtualenv pejytnr
-> sources pejytnr/bin/activate
-you should see:
-
-(pejytnr) yourusername@yourpc:~/githubproject/pyladiesmdg$ 
-> python pyladiestnr.py
+## pyladiesmdg website 
+### Prerequisites for running it locally
+*python-2.7.9, python-pip and virtualenv
+*cd /your/path/workspace
+*git clone  https://github.com/anjaniacatus/pyladiesmdg.git 
+*cd pyladiesmdg
+*virtualenv pejytnr
+*pip install -r requirements.txt
+  
+### To run pyladiesmdg locally
+ `
+ sources pejytnr/bin/activate
+ (pejytnr) yourusername@yourpc:~/githubproject/pyladiesmdg$ 
+ python pyladiestnr.py
+ `
