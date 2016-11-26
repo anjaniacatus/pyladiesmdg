@@ -15,13 +15,14 @@
                 bottom: 0;
                 width: 100%;
              height: 20px;
+padding-left:30px;
+ 
         }
 	#footer  table {
 	    width: 100%;
 	    max-width:1250px;
 	    bottom:0px;
 	    height:20px;   /* Height of the footer */
-	    margin-top: 50px;
         text-align:inline;
 	    font-size:12px;
 	    	    -moz-border-radius: 10px;
@@ -44,16 +45,7 @@
 
 
 
-	span:before {
-	    content: "";
-	    display: block;
-        background: url("/static/image/heart.png") no-repeat;
-	    background-size: 25px;
-        width: 25px;
-        height: 25px;
-	    float: left;
-	}
-	
+
 	
 #banner{
     width:100%;
@@ -71,11 +63,13 @@
 
 
 #banner h1{
-  padding: 45px 10px 10px 0;
-font-family: 'Philosopher', sans-serif;
+  padding: 7px 0 0 0;
+  padding-left:30px;
+  font-family: 'Philosopher', sans-serif;
+float:left;
 }
 
-html,body,div,span,object,iframe,h2,h1,h3,h4,h5,h6,p,blockquote,pre,a,abbr,address,cite,code,del,dfn,em,img,ins,q,small,strong,sub,sup,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td{border:0;margin:0;padding:0}article,aside,figure,figure img,figcaption,hgroup,footer,header,nav,section,video,object{display:block}a img{border:0}figure{position:relative}figure img{width:100%}
+html,body,div,li,span,object,iframe,h2,h1,h3,h4,h5,h6,p,blockquote,pre,a,abbr,address,cite,code,del,dfn,em,img,ins,q,small,strong,sub,sup,dl,dt,dd,ol,ul::,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td{border:0;margin:0;padding:0}article,aside,figure,figure img,figcaption,hgroup,footer,header,nav,section,video,object{display:block}a img{border:0}figure{position:relative}figure img{width:100%}
 .container12 {
     margin:0 auto;
     padding:0;
@@ -153,3 +147,19 @@ html,body,div,span,object,iframe,h2,h1,h3,h4,h5,h6,p,blockquote,pre,a,abbr,addre
 .row, .clearfix {zoom: 1;}
 img, object, embed {max-width:100%;}
 img {height:auto;}
+.menu {
+  float: right;
+  margin-top: 30px;
+  margin-right:100px;
+  color:#fff;
+  font-family: 'Philosopher', sans-serif;
+}
+.menu li {
+  display: inline;
+}
+.menu li + li {
+   margin-left: 35px;
+}
+.menu li a {
+  text-decoration: none;
+}
