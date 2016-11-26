@@ -1,187 +1,155 @@
-html;
-[class*='col-'] {
-  padding-right: 20px;
-  float:left:
-}
+		body {
+			background:#F6F1EA;
+			color:#CC4E46; 			
+            font-family: font-family: 'Itim', cursive;
+             line-height: 2;
+             font-size: 17;
+             text-align:inline;
+            position: relative; /* to make footer in the bottom of the body*/
+            margin: 0; /*to make footer fill the screen width without scroll*/
+        }
+		
+       
+        #footer{
+                position: absolute;
+                bottom: 0;
+                width: 100%;
+             height: 20px;
+        }
+	#footer  table {
+	    width: 100%;
+	    max-width:1250px;
+	    bottom:0px;
+	    height:20px;   /* Height of the footer */
+	    margin-top: 50px;
+        text-align:inline;
+	    font-size:12px;
+	    	    -moz-border-radius: 10px;
+	    -webkit-border-radius: 10px;
+	    border-radius: 10px;
+	} 
 
-[class*='col-']:last-if-type {
-  padding-right: 0;
-}
-
-
-
-.col-2-3 {
-  width: 66,66%;
-}
-
-.col-1-3 {
-  width: 33,33%;
-}
-
-.grid:after{
-   content: "";
-   display: table;
-   clear:both;
-}
-
-*, *:after, *:before {
-   -webkit-box-sizing: border-box;
-   -moz-box-sizing: border-box;
-   box-sizing: border-box;
-}
-
-
-body {
-    margin: 0;
-    padding: 0;
-    font-family: 'Trirong', serif;
-    color: #444;
-    height: 100%;
-}
-/*
- * Formatting the header area
- */
-header {
-    background-color:#fff;
-    height: 35px;
-    width: 100%;
-    opacity: .9;
-    margin-bottom: 10px;
-}
-header h1.logo {
-    margin: 0;
-    font-size: 1.4em;
-    font-family:'Antic',sans serif;  
-    color: #ff5252;
-    float: left;
-}
-header h1.logo:hover {
-    color: #fa023c;
-    text-decoration: none;
-}
-/*
- * Centering the body content
- */
-.container {
-    width: 90%;
-    margin: 0 auto;
-    margin-top: 25px;
-}
-}
-div.home {
-    padding: 10px 10px 30px 10px;
-    background-color: #E6E6FA;
-    -webkit-border-radius: 6px;
-    -moz-border-radius: 6px;
-    border-radius: 6px;
-}
-div.about {
-    padding: 10px 0 30px 0;
-    background-color: #E6E6FA;
-    -webkit-border-radius: 6px;
-    -moz-border-radius: 6px;
-    border-radius: 6px;
-}
-
-
-h2 {
-    font-size: 3em;
-    margin-top: 40px;
-    text-align: center;
-    letter-spacing: -2px;
-}
-h3 {
-    font-size: 1.7em;
-    font-weight: 100;
-    margin-top: 30px;
-    text-align: center;
-    letter-spacing: -1px;
-    color: #999;
-}
-
-blockquote {
-   display:block;
-   background: #fff;
-   padding: 15px 20px 15px 45px;
-   margin: 0 0 20px;
-   position: relative;
-                
-    /*Font*/
-    font-family: 'Trirong', serif ;
-    font-size: 16px;
-    line-height: 1.5;
-    color: #666;
-    text-align: justify;
-	                          
-    /*Borders - (Optional)*/
-                                  
-    /*Box Shadow - (Optional)*/
-     -moz-box-shadow: 2px 2px 15px #ccc;
-     -webkit-box-shadow: 2px 2px 15px #ccc;
-     -webkit-border-radius: 6px;
-     -moz-border-radius: 6px;
-     border-radius: 6px;
-      box-shadow: 2px 2px 15px #ccc;
-}
+		a, h2 {
+			color: #fff;
+			margin: 14px 0;
+		}
+        .examples .row p {
+			-webkit-border-radius: 4px;
+			-moz-border-radius: 4px;
+			border-radius: 4px;
+            color:#777;
+         padding:4px 0;
+            text-align:center;
+        }
 
 
 
-#footer {
-  position:absolute;
-  bottom:100px;
-  width:100%;
-  height:60px;   /* Height of the footer */
-  background:#999;
+	span:before {
+	    content: "";
+	    display: block;
+        background: url("/static/image/heart.png") no-repeat;
+	    background-size: 25px;
+        width: 25px;
+        height: 25px;
+	    float: left;
+	}
+	
+	
+#banner{
+    width:100%;
+    height: 100px;
+    margin:0px auto;
+    -moz-box-shadow: 0 1px 3px rgba(0,0,0,0.5);
+    -webkit-box-shadow: 0 1px 3px rgba(0,0,0,0.5);
+    -moz-border-radius: 15px;
+    -webkit-border-radius: 15px;
+    background: #cc4e46 no-repeat center left;
+    font-size: 15px;
+    color: #fff;
+ 
 }
 
 
-blockquote::before {
- content: "\201C"; /*Unicode for Left Double Quote*/
- color: #fa023c;
-                                     
- /*Font*/
- font-family: 'Dancing script', cursive ;
- font-size: 60px;
- font-weight: bold;
-                                              
- /*Positioning*/
-  position: absolute;
-  left: 10px;
-  top:5px
+#banner h1{
+  padding: 45px 10px 10px 0;
+font-family: 'Philosopher', sans-serif;
 }
 
-blockquote::after {
- /*Reset to make sure*/
- content: "";
+html,body,div,span,object,iframe,h2,h1,h3,h4,h5,h6,p,blockquote,pre,a,abbr,address,cite,code,del,dfn,em,img,ins,q,small,strong,sub,sup,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td{border:0;margin:0;padding:0}article,aside,figure,figure img,figcaption,hgroup,footer,header,nav,section,video,object{display:block}a img{border:0}figure{position:relative}figure img{width:100%}
+.container12 {
+    margin:0 auto;
+    padding:0;
+    position:relative;
+    width:1140px;
+}
+.row {margin-bottom:20px;}
+ .column4, .column8 {
+    display:inline;
+    float:left;
+    margin-left:10px;
+    margin-right:10px;
+}
+.container12 .alpha, .container16 .alpha {margin-left:0;}
+.container12 .omega, .container16 .omega {margin-right:0;}
+.container12 .column4 {width:360px;}
+.container12 .column8 {width:740px;}
+.container12 .prefix4 {padding-left:380px;}
+.container12 .prefix8 {padding-left:760px;}
+@media only screen and (min-width: 960px) and (max-width: 1160px) {
+    .container12 {width:960px;}
+    .container12 .column4 {width:300px;}
+    .container12 .column8 {width:620px;}
+    .container12 .prefix4 {padding-left:320px;}
+    .container12 .prefix8 {padding-left:640px;}
 }
 
-blockquote a {
-  text-decoration: none;
-  background: #eee;
-  cursor: pointer;
-  padding: 0 3px;
-  color: #c76c0c;
- }
+@media only screen and (min-width: 768px) and (max-width: 959px) {
+    .container12 {width:768px;}
+   .container12 .column4 {width:236px;}
+   .container12 .column8 {width:492px;}
+   .container12 .prefix4 {padding-left:256px;}
+   .container12 .prefix8 {padding-left:512px;}
+  }
+@media only screen and (max-width: 767px) {
+    .container12 {width:300px;}
+    .container12 .column4, .container16 .column4,
+    .container12 .column8, .container16 .column8,
+    .container16 .column16 {
+        margin:0 0 20px 0;
+        width:300px;
+    }
+   .container12 .prefix4, .container12 .prefix8 {padding-left:0;}
+    .row {margin:0;}
+}
 
- blockquote a:hover{
-  color: #666;
- }
-
- blockquote em{
-   font-style: italic;
- }
-
-.menu {
-    float: right;
-    margin-top: 8px;
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+    .container12 {width:420px;}
+    .container12 .column4, 
+    .container12 .column8,  
+    .container.prefix4,.container12 .prefix8 {padding-left:0;}
+    .row {margin:0;}
 }
-.menu li {
-    display: inline;
+.clearfix:before, .clearfix:after,
+.row:before, .row:after,
+.container12:before, .container12:after, .container16:before, .container16:after {
+    content:'.';
+    display:block;
+    height:0;
+    overflow:hidden;
+    visibility:hidden;
+    width:0;
 }
-.menu li + li {
-    margin-left: 35px;
+/* http://sonspring.com/journal/clearing-floats */
+.clear {
+    clear:both;
+    display:block;
+    height:0;
+    overflow:hidden;
+    visibility:hidden;
+    width:0;
 }
-.menu li a {
-    color: #444;
-    text-decoration: none;
-}
+.row:after, .clearfix:after, .container12:after, .container16:after {clear:both;}
+/* For IE7. Move this to separate file when you notice some problems */
+.row, .clearfix {zoom: 1;}
+img, object, embed {max-width:100%;}
+img {height:auto;}
