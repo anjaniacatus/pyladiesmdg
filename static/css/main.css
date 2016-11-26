@@ -160,6 +160,11 @@ img {height:auto;}
 .menu li + li {
    margin-left: 35px;
 }
-.menu li a {
+
+.menu li  {
   text-decoration: none;
+}
+.heart li  {
+  text-decoration: none;
+  margin-right: 70px;
 }

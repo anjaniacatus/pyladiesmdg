@@ -14,12 +14,13 @@
     <div id="banner">
         <h1> <span> PyLadies Antananarivo</span> </h1>
         <ul class="menu">
+  <li class="heart"> <img src="{{ url_for('static', filename = 'image/heart.png') }}" width="25"> </li> 
                  {% for item in nav.top %}
           <li class="{{ 'active' if item.is_active else '' }}">
              <a href="{{ item.url }}">{{ item.label }}</a>
           </li>
          {% endfor %}
-         <li><img src="/static/images/heart.png"><a href="">nous-aidez?</a></li> 
+       
        </ul>
     </div> 
     <div class="container12 examples">
@@ -62,7 +63,7 @@
         <div id="footer" >
             <table>
               <tr>
-               <td>&copy; Copywright  2016 PyladiesMDG. All Rights Reserved</td>
+                  <td>&copy;2016-PyladiesMDG </td>
              </tr> 
             </table>
     </div>
