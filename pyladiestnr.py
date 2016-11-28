@@ -1,7 +1,11 @@
 from flask import Flask, render_template
 from flask_navigation import Navigation
+from flask_bootstrap  import  Bootstrap
+
+
 
 app = Flask(__name__)
+Bootstrap(app)
 @app.route('/')
 def home():
     return render_template('home.html')
@@ -27,6 +31,7 @@ nav.Bar('top', [
     nav.Item('Ateliers','activity'),
     nav.Item('Articles','inspiring'),
     ])
+
 
 if __name__ == '__main__':
     app.run(debug=True)
