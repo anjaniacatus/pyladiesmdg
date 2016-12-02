@@ -78,13 +78,13 @@ html,body,div,li,span,object,iframe,h2,h1,h3,h4,h5,h6,p,blockquote,pre,a,abbr,ad
 .row {margin-bottom:20px;}
  .column4, .column8 {
     display:inline;
-    float:left;
+    float:right;
     margin-left:7px;
     margin-right:7px;
     padding-left:2px;
 }
 .column8 {
-  float:right;
+  float:left;
 }
 .container12 .alpha {margin-left:0;}
 .container12 .omega {margin-right:0;}
