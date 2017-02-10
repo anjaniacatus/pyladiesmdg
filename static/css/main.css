@@ -12,10 +12,10 @@
     body {
            background:#fff;
 	       color:#000; 
-           font-family: 'Roboto', sans-serif;
+           font-family: 'BioRhyme', serif;
            line-height: 2;
            min-height: 100%;
-           font-size: 16px;
+           font-size: 14px;
            padding-bottom: 6rem;
             text-align:inline;
             position: relative; /* to make footer in the bottom of the body*/
@@ -35,7 +35,7 @@
    }
 
    .footer-color{
-       font-family: 'Poiret One', cursive;
+       font-family: 'BioRhyme', cursive;
        font-style: normal;
        font-weight: 400;
        font-size: 12px;
@@ -72,29 +72,6 @@
 	
 
 
-.clearfix:before, .clearfix:after,
-.row:before, .row:after,
-.container12:before, .container12:after, .container16:before, .container16:after {
-    content:'.';
-    display:block;
-    height:0;
-    overflow:hidden;
-    visibility:hidden;
-    width:0;
-}
-.clear {
-    clear:both;
-    display:block;
-    height:0;
-    overflow:hidden;
-    visibility:hidden;
-    width:0;
-}
-.row:after, .clearfix:after, .container12:after, .container16:after {clear:both;}
-/* For IE7. Move this to separate file when you notice some problems */
-.row, .clearfix {zoom: 1;}
-img, object, embed {max-width:100%;}
-img {height:auto;}
 
  li {
   display: inline;
