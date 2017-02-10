@@ -17,9 +17,9 @@
            min-height: 100%;
            font-size: 14px;
            padding-bottom: 6rem;
-            text-align:inline;
-            position: relative; /* to make footer in the bottom of the body*/
-            margin: 0; /*to make footer fill the screen width without scroll*/
+           text-align:inline;
+           position: relative; /* to make footer in the bottom of the body*/
+           margin: 0; /*to make footer fill the screen width without scroll*/
         }
 		
        
@@ -30,8 +30,8 @@
         left: 0;
         width: 100%;
         padding: 1rem;
-	   background-color: #cc4e46;
-	   z-index: 0;
+	    background-color: #cc4e46;
+	    z-index: 0;
    }
 
    .footer-color{
@@ -65,19 +65,12 @@
                  padding:6px 0;
                  text-align:left;
         }
-
-
-
-
 	
-
-
 
  li {
   display: inline;
-}
+ }
  
-li + li {
+  li + li {
    margin-left: 5px;
  }
-
