@@ -21,12 +21,8 @@
  
        <div class="col-sm-7">             
          {% block navbar %}
-          {% for item in nav.top %}
-             <li class="{{ 'active' if item.is_active else '' }}">
-                <a href="{{ item.url }}">{{ item.label }}</a>
-             </li>
-         {% endfor %}
-        {%endblock%}
+           {{nav.top.render()}}   
+         {%endblock%}
 
          <p>
            {% block content %}
