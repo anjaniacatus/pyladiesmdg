@@ -21,9 +21,10 @@ def template():
     return  render_template('templates.html')
 nav = Nav()
 nav.register_element('top', Navbar(
-    View('About','home'),
-    View('Activities', 'activity'),
-    View('SupportUs','inspiring'),
+    View('*','home'),
+    View('about', 'home'),
+    View('activities', 'activity'),
+    View('supportus','inspiring'),
 ))
 
 nav.init_app(app)
