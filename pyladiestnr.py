@@ -22,9 +22,9 @@ def template():
 nav = Nav()
 nav.register_element('top', Navbar(
     View('*','home'),
-    View('about', 'home'),
-    View('activities', 'activity'),
-    View('supportus','inspiring'),
+    View('aboutus', 'home'),
+    View('events', 'activity'),
+    View('getinvolved','inspiring'),
 ))
 
 nav.init_app(app)
