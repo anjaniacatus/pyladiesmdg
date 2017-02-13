@@ -15,7 +15,7 @@ def activity():
     return  render_template('ateliers.html')
 @app.route('/inspiring')
 def inspiring():
-    return  render_template('inspiring.html')
+    return  render_template('helping.html')
 @app.route('/template')
 def template():
     return  render_template('templates.html')
