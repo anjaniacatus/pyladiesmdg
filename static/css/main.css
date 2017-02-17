@@ -11,8 +11,8 @@
 
     body {
            background:#fff;
-	   color:#000; 
-           font-family: 'BioRhyme', serif;
+	       color:#000; 
+           font-family: 'Raleway', sans-serif;
            line-height: 2;
            min-height: 100%;
            font-size: 15px;
@@ -35,7 +35,7 @@
    }
 
    .footer-color{
-       font-family: 'BioRhyme', cursive;
+       font-family: 'Raleway', sans-serif;
        font-style: normal;
        font-weight: 400;
        font-size: 12px;
@@ -51,11 +51,18 @@
 
 
 
-     a,h2{
-	    font-family: 'BioRhyme', serif;
-        font-size: 16px;
-        color: #cc4e46 ;
-	     margin: 14px 0;
+       h2{
+	    font-family:'Raleway', sans-serif ;
+            font-size: 16px;
+            color: #4682B4 ;
+	    margin: 14px 0;
+        }
+       
+      a{
+	    font-family:'Raleway', sans-serif ;
+            font-size: 16px;
+            color: #cc4e46 ;
+	    margin: 14px 0;
         }
        
 
@@ -70,8 +77,12 @@
             }
 	
 
- li {
+ a.li {
   display: inline;
+  font-family:'PlayfairDisplay', sans-serif ;
+  font-size: 18px;
+  color: #4682B4 ;
+
  }
  
  li + li {
