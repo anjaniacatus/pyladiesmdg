@@ -22,8 +22,8 @@ def template():
 nav = Nav()
 nav.register_element('top', Navbar(
     View('*','home'),
-    View('A Propos', 'home'),
-    View('Participez', 'activity'),
+    View("Qu'es aquo?", 'home'),
+    View('Missions', 'activity'),
     View('Partenaires','inspiring'),
 ))
 
