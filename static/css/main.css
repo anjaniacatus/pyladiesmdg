@@ -65,7 +65,10 @@
 	    margin: 14px 0;
         }
        
-
+      a:hover {
+              -webkit-animation: fadeIn 1s;
+                  animation: fadeIn 1s;
+      }
      
       p{
 		 -webkit-border-radius: 4px;

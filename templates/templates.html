@@ -9,11 +9,13 @@
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
   <link rel="stylesheet" href="{{ url_for('static', filename='css/main.css') }}" >
- </head>
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/animate.css') }}" >
+
+</head>
 <body>
 <div class="vontoatiny">
      <div class="col-sm-2"> 
-         <img src="{{ url_for('static', filename = 'image/logorouge.png') }}" width="150">
+         <img src="{{ url_for('static', filename = 'image/logorouge.png') }}" class="animated 10s tada" width="150">
          <img src="{{ url_for('static', filename = 'image/pyladies_tnr.png') }}" width="150">
      </div>
  
@@ -44,5 +46,7 @@
           </p>
         </div>
     </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="static/js/bootstrap.min.js"></script>
 </body>
 </html>
