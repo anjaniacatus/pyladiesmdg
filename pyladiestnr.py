@@ -11,8 +11,6 @@ Bootstrap(app)
 def home():
     return render_template('home.html')
 @app.route('/activities')
-def activity():
-    return  render_template('ateliers.html')
 @app.route('/inspiring')
 def inspiring():
     return  render_template('helping.html')
@@ -21,8 +19,7 @@ def template():
     return  render_template('templates.html')
 nav = Nav()
 nav.register_element('top', Navbar(
-    View('*','home'),
-    View('Missions', 'activity'),
+    View("Qu'es aquo?",'home'),
     View('Partenaires','inspiring'),
 ))
 
