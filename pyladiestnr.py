@@ -27,5 +27,5 @@ nav.register_element('top', Navbar(
 nav.init_app(app)
 if __name__ == '__main__':
     #app.run(debug=False, host='192.168.1.3', port=7000)
-    app.run(debug=True)
+    app.run(debug=False)
 
