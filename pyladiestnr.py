@@ -27,7 +27,7 @@ nav.register_element('top', Navbar(
     View("AntananarivoPyladies",'home'),
     View("Qu'es aquo?",'home'),
     View('Nous Rejoindre?','joinus'),
-    View('Sponsor', 'sponsor'),
+    View('Sponsors', 'sponsor'),
 ))
 
 nav.init_app(app)
