@@ -10,9 +10,6 @@ Bootstrap(app)
 @app.route('/')
 def home():
     return render_template('home.html')
-@app.route('/sponsors')
-def sponsor():
-    return  render_template('sponsor.html')
 
 @app.route('/inspiring')
 def joinus():
@@ -24,10 +21,8 @@ def template():
     return  render_template('templates.html')
 nav = Nav()
 nav.register_element('top', Navbar(
-    View("AntananarivoPyladies",'home'),
     View("Qu'es aquo?",'home'),
     View('Nous Rejoindre?','joinus'),
-    View('Sponsors', 'sponsor'),
 ))
 
 nav.init_app(app)

@@ -13,52 +13,40 @@
 
 </head>
 <body>
-    <div class=col-sm-2>
-    
-   
+    <div id ="wrap"> 
+        <div class="page-header">
+          {% block navbar %}
+             {{nav.top.render()}}   
+          {%endblock%}
     </div>
-  <div class=col-sm-8>
-     <div id="logo-name">
-         {% block navbar %}
-           {{nav.top.render()}}   
-         {%endblock%}
-     </div>
-   </div>
-   <div class=col-sm-2>
+      
+  
+
+<div class="votoatiny">
+ <div class="col-sm-2">
    
-                     
-   </div>
-
-
-<div class="vontoatiny">
-    <div class="col-sm-2"> 
-          <img src="{{ url_for('static', filename = 'image/pyladies_tnr.png') }}" width="150">
-
-    </div>
- <div class="col-sm-8">
+</div>
+ <div class="col-sm-10">
          <p>
            {% block content %}
            {% endblock %}
          </p>
  </div> 
  
-   <div class="col-sm-2">
    </div>
-   </div>   
-   <div class="footer">
-         <div="col-sm-4">
-           <span> <img src="{{ url_for('static', filename = 'image/logorouge.png') }}" width="150" class="animated 10s tada"> </span>   
-           <p><a href="mailto:tnr@pyladies.com?Subject=Contact" target="_top">Say Hello</a> </p>
-           
-       </div>
-  
-       <div class="col-sm-8">
-           <p>
-               <a href="https://www.facebook.com/djangogirlsTNR"><img src="static/image/iconfb.png" alt="PyLadiesmdg Facebook" /></a>   
-               <a href="https://github.com/tnrpyladies"><img src="static/image/icongit.png" alt="PyLadiesmdg GitHub" /></a>
-               <a href="http://www.twitter.com/PyLadiesmdg/"><img src="static/image/icontwitter.png" alt="PyLadiesmdg Twitter" /></a>
-           </p>
-       </div>
+    <div id="push"></div>
+     <div id="footer">
+         <div class="votoatiny">
+             <div class="col-sm-10">
+             </div> 
+          
+              <div class="col-sm-2">
+               <a href="https://www.facebook.com/djangogirlsTNR"><img src="static/image/iconfb.png" alt="PyLadiesmdg Facebook" width="40" /></a>   
+               <a href="http://www.twitter.com/PyLadiesmdg/"><img src="static/image/icontwitter.png" alt="PyLadiesmdg Twitter"  width="40"/></a>
+               <a href="mailto:tnr@pyladies.com?Subject=Contact" target="_top">Say Hello</a> 
+              </div>
+         </div>
+     </div>
     </div>
    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <script src="static/js/bootstrap.min.js"></script>
