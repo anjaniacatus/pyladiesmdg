@@ -21,6 +21,7 @@ def template():
     return  render_template('templates.html')
 nav = Nav()
 nav.register_element('top', Navbar(
+    View("Pyladies in Antananarivo City", 'home'),
     View("Qu'es aquo?",'home'),
     View('Nous Rejoindre?','joinus'),
 ))
