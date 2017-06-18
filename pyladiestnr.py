@@ -15,15 +15,19 @@ def home():
 def joinus():
     return  render_template('helping.html')
 
+def events():
+    return  render_template('helping.html')
+
 
 @app.route('/template')
 def template():
     return  render_template('templates.html')
 nav = Nav()
 nav.register_element('top', Navbar(
-    View("Pyladies in Antananarivo City", 'home'),
-    View("Qu'es aquo?",'home'),
-    View('Nous Rejoindre?','joinus'),
+    View("Pyladies Antananarivo", 'home'),
+    View("Values",'home'),
+    View("Events",'joinus'),
+    View("Sponsor",'joinus'),
 ))
 
 nav.init_app(app)
