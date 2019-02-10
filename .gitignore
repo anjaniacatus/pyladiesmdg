@@ -1,6 +1,7 @@
 .env
 pejytnr/*
 ideaforcontent
+tudu
 techchoice
 *.pyc
 db.sqlite3
