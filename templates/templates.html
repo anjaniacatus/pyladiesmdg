@@ -14,41 +14,37 @@
 
 </head>
 <body>
-    <div id ="wrap"> 
-        <nav class="navbar navbar-default navbar-light bg-faded">
-            {% block navbar %}
-                {{nav.top.render()}}   
-            {%endblock%}
-
-        </nav>
-        
-        
-        
-  
+<div id ="wrap"> 
+	<nav class="navbar navbar-default navbar-light bg-faded">
+			{% block navbar %}
+					{{nav.top.render()}}   
+			{%endblock%}
+			<img src="static/image/hopper2.jpg" alt="This is a Baobab"/>
+	</nav>
 
 <div class="votoatiny">
- <div class="col-sm-3">
-     <span> <a href="/"><img src="static/image/pyladiesantananarivo.png" alt="PyladiesAntananarivo" width="200" class="animated 10s tada"/></a> </span>
+	 <div class="col-sm-3">
+			 <span> <a href="/"><img src="static/image/pyladiesantananarivo.png" alt="PyladiesAntananarivo" width="200" class="animated 10s tada"/></a> </span>
+	</div>
+	
+	<div class="col-sm-7">
+					 <p>
+						 {% block content %}
+						 {% endblock %}
+					 </p>
+	 </div> 
+	 <div class="col-sm-1">
+	 </div>
 </div>
- <div class="col-sm-7">
-         <p>
-           {% block content %}
-           {% endblock %}
-         </p>
- </div> 
-  <div class="col-sm-1">
-</div>
- 
-   </div>
-    <div id="push"></div>
-     <div id="footer">
-             <div class="col-sm-10">
-            </div>
-             <div class="col-sm-2">
-               <a href="#"><img src="static/image/baobab.png" alt="This is a Baobab"  width="200"/></a>
-             </div>
+</div> 
+<div id="push"></div>
+  <div id="footer">
+    <div class="col-sm-10">
     </div>
-   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <div class="col-sm-2">
+   </div>
+</div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <script src="static/js/bootstrap.min.js"></script>
 </body>
 </html>

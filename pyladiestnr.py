@@ -25,9 +25,10 @@ def template():
 nav = Nav()
 nav.register_element('top', Navbar(
     View("Pyladies Antananarivo", 'home'),
-    View("Values",'home'),
-    View("Events",'joinus'),
-    View("Sponsor",'joinus'),
+    View("About",'home'),
+    View("Pourquoi?",'joinus'),
+    View("Activités",'joinus'),
+    View("Partenaires",'joinus'),
 ))
 
 nav.init_app(app)
