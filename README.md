@@ -9,4 +9,4 @@
 ## To run pyladiesmdg locally
 - sources pejytnr/bin/activate
 - (pejytnr) yourusername@yourpc:~/githubproject/pyladiesmdg$  python pyladiestnr.py
- `
+## Commiting and asking for a push request
