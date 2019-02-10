@@ -1,6 +1,6 @@
 ## pyladiesmdg website 
 ## Prerequisites to run it locally
-- install python-2.7.9, python-pip and virtualenv
+- install python3.7, python-pip and virtualenv
 - cd /your/path/workspace
 - git clone  https://github.com/anjaniacatus/pyladiesmdg.git 
 - cd pyladiesmdg
