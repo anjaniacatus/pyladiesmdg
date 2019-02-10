@@ -1,4 +1,6 @@
+.env
 pejytnr/*
+ideaforcontent
 techchoice
 *.pyc
 db.sqlite3
